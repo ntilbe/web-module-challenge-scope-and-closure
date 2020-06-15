@@ -117,12 +117,12 @@ and returns the score at each pont in the game, like so:
 9th inning: 6 - 10
 
 Final Score: 6 - 10 */
-
 function scoreboard(inning, num) {
+  let inningData = inning();
   let cool = Math.floor(3 * Math.random());
-  for(let i = 0; i < inning.length; i++){
+  for(let i = 0; i < inningData.length; i++){
     return cool;
   }
 }
-console.log(scoreboard(inning(), 9));
+console.log(scoreboard(inning, 9));
 
