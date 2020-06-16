@@ -64,10 +64,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-
+  The const dansRoll and zoesRoll.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-
+  The ‘name’ passed into the personalDice function.  It is always dan. The new roll value can change (random number). Both times dansRoll() is called, the console.log will be a string and will contain ‘Dan rolled a’ no matter what and then the number is the only thing that could be different
 c. What is the lexical scope of `newRoll`? 
+  The Lexical scope of newRoll is a function scope — contained within personalDice().
 
 ### Task 2c - Exit Ticket
 
@@ -111,6 +112,6 @@ addSix(21); // returns 27
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull request
+- [X] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your Team Lead as a reviewer on the pull request
 - [ ] Your Team Lead will count the project as complete by merging the branch back into master
